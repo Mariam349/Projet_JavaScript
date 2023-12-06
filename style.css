@@ -1,0 +1,57 @@
+body{
+    margin: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+.form-control{
+  margin: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px; 
+  }
+  form {
+    display: flex;
+    flex-direction: column; /* Aligne les champs d'entrée en colonne (verticalement) */
+    max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: auto; /* Centre le formulaire horizontalement */
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box; /* Assure que la taille totale de l'élément inclut la bordure et le rembourrage */
+}
+h1 {
+  font-family: 'Poppins', sans-serif; /* Remplacez 'Votre Police' par le nom de la police souhaitée */
+  font-size: 24px; /* Ajustez la taille de la police selon vos préférences */
+  text-align: center; /* Centre le texte horizontalement */
+  color: #333; /* Couleur du texte */
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte */
+  
+}
+.boutton{
+ margin-left: 150px;
+  }
+  tr{
+    text-transform: uppercase;
+  }
+ h3{
+  font-family: 'Poppins', sans-serif; /* Remplacez 'Votre Police' par le nom de la police souhaitée */
+  font-size: 15px; /* Ajustez la taille de la police selon vos préférences */
+  text-align: center; /* Centre le texte horizontalement */
+  color: #222222; /* Couleur du texte */
+  text-transform: uppercase;
+ }
